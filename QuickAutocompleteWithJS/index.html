@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css" 
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+        crossorigin="anonymous">  
+    <title>Quick Auto Complete</title>
+
+</head>
+<body>
+    <div class="container mt-5">
+        <div class="col-md-6 m-auto">
+            <h3 class="text-center  text-dark mb-3">
+                <i class="bi bi-flag-fill">State lookup</i>
+            </h3>
+            <div class="form-group">
+                <input type="text" 
+                    name="text" 
+                    id="search"
+                    class="form-control form-control-lg"
+                    placeholder="Enter State name or abbreviation"
+                    >
+                    
+            </div>
+            <div id="match-list"></div>
+        </div>
+    </div>
+    <script src="./js/main.js"></script>
+</body>
+</html>
